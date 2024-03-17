@@ -1,0 +1,44 @@
+h4 {
+  text-align: left;
+  padding: 15px 0;
+}
+li {
+  list-style: none;
+  padding: 5px;
+}
+li span {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.8);
+  padding-left: 5px;
+}
+.SimilarBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+.SimilarBox li {
+  display: flex;
+  align-items: center;
+}
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.Category {
+  padding: 0 5px 16px 50px;
+  overflow-y: scroll;
+  width: 200px;
+}
+.Category::-webkit-scrollbar-track {
+  width: 10px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+.Category::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f5;
+  border-radius: 15px;
+}

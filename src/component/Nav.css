@@ -1,0 +1,102 @@
+.nav_top {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  align-items: center;
+  height: 36px;
+}
+.nav_bottom {
+  background-color: #f5f5f5;
+}
+.top_logo {
+  width: 24px;
+  height: 24px;
+  padding: 10px;
+}
+
+.logo_box,
+.info {
+  padding: 0 36px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  align-items: center;
+}
+.info li {
+  font-size: 12px;
+  padding: 0 15px;
+  font-weight: 600;
+}
+img {
+  object-fit: cover;
+}
+.side {
+  width: 2px;
+  height: 15px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.nav_mid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+.nav_mid ul {
+  padding-left: 120px;
+}
+.nav_mid li {
+  padding: 0 15px;
+}
+.wish_list {
+  display: flex;
+  padding: 0 36px;
+}
+.wish_list p {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input[type="text"] {
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  background-color: #f5f5f5;
+  width: 140px;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 20px;
+}
+.logo img {
+  width: 80px;
+  height: 80px;
+  padding: 0 36px;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.nav_bottom {
+  display: flex;
+  flex-direction: column;
+}
+.nav_bottom span {
+  padding: 5px 0;
+  font-weight: 600;
+}
+.nav_bottom span a {
+  color: black;
+  padding-left: 10px;
+}
+.nav_bottom span:last-child {
+  font-size: 11px;
+}
